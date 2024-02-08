@@ -14,7 +14,7 @@ interface Book {
   Status: string;
 }
 
-function adminBooks() {
+function AdminBooks() {
 
     const[books, setBooks] = useState<Book[]>([])
     const [searchTerm, setSearchTerm] = useState('');
@@ -99,4 +99,4 @@ function adminBooks() {
   )
 }
 
-export default adminBooks
+export default AdminBooks

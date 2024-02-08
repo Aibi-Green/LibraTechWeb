@@ -14,7 +14,7 @@ interface Book {
   DueDate: string;
 }
 
-function studentBorrow() {
+function StudentBorrow() {
   const [books, setBooks] = useState<Book[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
   const router = useRouter();
@@ -84,4 +84,4 @@ function studentBorrow() {
   );
 }
 
-export default studentBorrow
+export default StudentBorrow

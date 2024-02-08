@@ -13,7 +13,7 @@ interface User {
   ContactNum: string;
 }
 
-function adminUsers() {
+function AdminUsers() {
   const[users, setUsers] = useState<User[]>([])
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -92,4 +92,4 @@ function adminUsers() {
   )
 }
 
-export default adminUsers
+export default AdminUsers

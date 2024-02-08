@@ -13,7 +13,7 @@ interface Book {
   DueDate: string;
 }
 
-function adminBorrow() {
+function AdminBorrow() {
 
     const[books, setBooks] = useState<Book[]>([])
     const [searchTerm, setSearchTerm] = useState('');
@@ -102,4 +102,4 @@ function adminBorrow() {
     )
 }
 
-export default adminBorrow
+export default AdminBorrow
