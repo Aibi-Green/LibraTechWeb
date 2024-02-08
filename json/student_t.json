@@ -1,0 +1,29 @@
+[
+ {
+   "StudentID": "2020-12345-67-8",
+   "LastName": "lastdf",
+   "FirstName": "first",
+   "MidInitial": "middle",
+   "Email": "email@email.com",
+   "ContactNum": 9123456789,
+   "Password": 123456
+ },
+ {
+   "StudentID": "2020-43210-12-2",
+   "LastName": "asd",
+   "FirstName": "asd",
+   "MidInitial": "asd",
+   "Email": "asd@asdfsd.com",
+   "ContactNum": 9123456789,
+   "Password": 123456
+ },
+ {
+   "StudentID": "2023-12-26",
+   "LastName": "San Juan city",
+   "FirstName": "0912346789",
+   "MidInitial": "gabrielpanal@gmail.com",
+   "Email": "mang jose",
+   "ContactNum": 98654321,
+   "Password": 1234
+ }
+]
